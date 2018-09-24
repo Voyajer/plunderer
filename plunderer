@@ -2,4 +2,8 @@
 #
 #This bash script copies all configurations in this repo to their respective locations
 
-#
+#home folder
+cp ./home/.bash_profile ~/
+cp ./home/.bashrc ~/
+
+#mpv
