@@ -6,4 +6,18 @@
 cp ./home/.bash_profile ~/
 cp ./home/.bashrc ~/
 
+#fonts
+##install abeezee
+curl -O https://www.fontsquirrel.com/fonts/download/abeezee
+7z x abeezee
+cd abeezee_FILES
+mkdir -pv ~/.local/share/fonts
+mv ABeeZee* ~/.local/share/fonts
+
+##cleanup
+cd ~
+rm -rf abeezee*
+
+#icons
+##install papyrus
 #mpv
