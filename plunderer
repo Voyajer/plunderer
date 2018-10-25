@@ -14,10 +14,19 @@ cd abeezee_FILES
 mkdir -pv ~/.local/share/fonts
 mv ABeeZee* ~/.local/share/fonts
 
+#icons
+##install papyrus
+
+#mpv
+cp ./mpv/input.conf ~/.config/mpv/
+cp ./mpv/mpv.conf ~/.config/mpv/
+
+
+#conky
+cp ./conky/conky.conf ~/.config/conky/
+
 ##cleanup
 cd ~
 rm -rf abeezee*
-
-#icons
-##install papyrus
-#mpv
+rm -rf mpv
+rm -rf conky
