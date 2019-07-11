@@ -17,9 +17,8 @@ mv ABeeZee* ~/.local/share/fonts
 #icons
 ##install papyrus
 
-#mpv
-cp ./mpv/input.conf ~/.config/mpv/
-cp ./mpv/mpv.conf ~/.config/mpv/
+#home
+cp -r ./home ~
 
 
 #conky
