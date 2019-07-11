@@ -20,10 +20,6 @@ mv ABeeZee* ~/.local/share/fonts
 #home
 cp -r ./home ~
 
-
-#conky
-cp -r ./conky/conky.conf ~/.config/conky/
-
 ##cleanup
 cd ~
 rm -rf abeezee*
