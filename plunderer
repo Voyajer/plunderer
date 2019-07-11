@@ -22,7 +22,7 @@ cp -r ./home ~
 
 
 #conky
-cp ./conky/conky.conf ~/.config/conky/
+cp -r ./conky/conky.conf ~/.config/conky/
 
 ##cleanup
 cd ~
