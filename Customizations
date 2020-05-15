@@ -20,6 +20,7 @@ konsole - ctrl+alt+t
 
 #sddm theme
 Breeze
+no splash screen
 
 #autostart
 conky, fancurve, overclocks
