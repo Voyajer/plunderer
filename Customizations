@@ -9,14 +9,11 @@ adwaita-icon-theme (included)
 #icon theme
 papirus-icon-theme
 
-#window decorations
-adapta
+#application style - window decorations
+adapta no borders
 
-#plasma theme
-Aritim-Dark
-
-
-
+#plasma style
+Aritim-Dark blur
 
 #shortcuts
 konsole - ctrl+alt+t
@@ -27,4 +24,6 @@ Breeze
 #autostart
 conky, fancurve, overclocks
 
-#
+#kwinrc
+add MaxFps=144.0 under [Compositing]
+"sed -i '/[Compositing]/a MaxFps=144.0' /home/%userName/.config/kwinrc"
