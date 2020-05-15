@@ -1,5 +1,8 @@
 #Post installation customizations
 
+#global theme
+breeze dark
+
 #font
 ABeeZee - https://www.fontsquirrel.com/fonts/abeezee
 
@@ -24,6 +27,9 @@ no splash screen
 
 #autostart
 conky, fancurve, overclocks
+
+#removable devices
+automount
 
 #kwinrc
 add MaxFps=144.0 under [Compositing]
