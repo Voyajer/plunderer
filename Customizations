@@ -34,3 +34,15 @@ automount
 #kwinrc
 add MaxFps=144.0 under [Compositing]
 "sed -i '/[Compositing]/a MaxFps=144.0' /home/%userName/.config/kwinrc"
+
+#dolphin
+System Settings → Workspace Behavior → general Behavior --set to double click
+dolphin preferences
+  status bar --remove zoom slider, remove selection marker
+  startup --enable editable location bar, show full path in both location bar and title bar
+  navigation --open archives as folder
+  services --enable delete
+configure toolbars
+  add: up, refresh, show previews
+add information panel under places panel
+  
