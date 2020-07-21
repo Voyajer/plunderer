@@ -1,0 +1,9 @@
+#1  how to unfuck corrupted packages that prevent reinstallation or updates
+ 
+    0) Identify corrupted package by attempting to -syu system
+       Maybe run reflector to fix your repos first.
+    1) Run sed -i 's/PACKAGESGOESHERE //g' Text.txt
+    2) sed -i 's/ exists in filesystem//g' Text.txt   gets rid of all unnecessary text.
+    3) run tr '\n' ' ' < Text.txt                     spits text out into terminal formatted to rm
+    4) run sudo rm -rf TEXTCOPIEDFROMLASTCOMMAND
+    5) -syu
