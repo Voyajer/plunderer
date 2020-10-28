@@ -7,3 +7,9 @@
     3) run tr '\n' ' ' < Text.txt                     spits text out into terminal formatted to rm
     4) run sudo rm -rf TEXTCOPIEDFROMLASTCOMMAND
     5) -syu
+
+
+#2  Environment Variables
+    
+    env $VARIABLE=$FLAG as you do
+    You can also use unset $VARIABLE to revert
