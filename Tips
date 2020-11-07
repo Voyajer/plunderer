@@ -13,3 +13,8 @@
     
     env $VARIABLE=$FLAG as you do
     You can also use unset $VARIABLE to revert
+
+#3  Wine config
+    
+    Use wine-staging and use dxvk-bin from the AUR
+         install dxvk with "setup_dxvk install --symlink" the symlink flag is needed otherwise dxvk wont be updated in the default prefix.
