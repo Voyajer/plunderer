@@ -1,2 +1,4 @@
 as of 2021 I found a utility called "gwe" on the AUR which acts as a functional replacement for evga precisionX, meaning I don't need to use my startup files to
 manage GPU settings anymore.
+
+for memory overclocking; mem offset seems to be half of what the script uses/what is shown in nvidia-settings (87 MHz vs 174 MHz)
