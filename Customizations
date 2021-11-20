@@ -1,7 +1,7 @@
 #Post installation customizations
 
 #global theme
-breeze dark
+Fluent-dark
 
 #font
 ABeeZee - https://www.fontsquirrel.com/fonts/abeezee
@@ -13,7 +13,7 @@ adwaita-icon-theme (included)
 papirus-icon-theme
 
 #application style - window decorations
-adapta no borders
+breeze
 
 #plasma style
 Aritim-Dark blur
