@@ -1,7 +1,11 @@
 #Post installation customizations
 
-#global theme
-Fluent-dark
+#Window Decorations
+#Fluent-dark
+ClassiK
+  -Full-height rectangle
+  -Large icons
+  -blend window outline to shadow
 
 #font
 ABeeZee - https://www.fontsquirrel.com/fonts/abeezee
