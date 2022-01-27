@@ -1,12 +1,15 @@
+#
 # ~/.bashrc
-
-#put "[[ -r ~/.bashrc ]] && . ~/.bashrc" in .bash_profile
+#
+#put in .bash_profile:
+#[[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#set ls to show hidden files and colorize output
-alias ls='ls -a --color=auto'
+alias ls='ls  -a --color=auto'
 
-#theme for name "[jon:~]:"
-export PS1="\[\033[38;5;32m\][\u:\w]:\[$(tput sgr0)\]"
+alias anaconda='source /opt/anaconda/bin/activate root'
+
+#terminal bling
+export PS1="\[\033[38;5;32m\][\u@\D{%I:%M:%S %P}:\w]:\[$(tput sgr0)\]"
