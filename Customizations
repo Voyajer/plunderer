@@ -2,7 +2,7 @@
 
 #Window Decorations
 #Fluent-dark
-ClassiK
+ClassiK AURhttps://www.fontsquirrel.com/fonts/abeezee
   -Full-height rectangle
   -Large icons
   -blend window outline to shadow
@@ -14,7 +14,7 @@ ABeeZee - https://www.fontsquirrel.com/fonts/abeezee
 adwaita-icon-theme (included)
 
 #icon theme
-papirus-icon-theme
+papirus-icon-theme repos
 
 #application style - window decorations
 breeze
