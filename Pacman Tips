@@ -1,0 +1,2 @@
+#Clean out packages
+sudo pacman -Qdtq | sudo pacman -Rs -
