@@ -1,10 +1,10 @@
 #Post installation customizations
 
 #Window Decorations
-#Fluent-dark
-ClassiK AURhttps://www.fontsquirrel.com/fonts/abeezee
-  -Full-height rectangle
-  -Large icons
+Klassy from AUR
+  -Integrated Rounded Rectangle
+  -20 large-medium
+  -accent coulours with traffic lights
   -blend window outline to shadow
 
 #font
