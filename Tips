@@ -18,3 +18,7 @@
     
     Use wine-staging and use dxvk-bin from the AUR
          install dxvk with "setup_dxvk install --symlink" the symlink flag is needed otherwise dxvk wont be updated in the default prefix.
+
+#4  Ntfs drive not mounting
+
+    sudo ntfsfix --clear-dirty /dev/sda1
